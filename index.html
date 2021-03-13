@@ -16,8 +16,8 @@
   <body>
     <div class="container">
       <header class="header">
-        <img src="./img/logo.png" alt="site-logo" class="log" />
-        <form action="">
+        <img src="./img/logo.png" alt="site-logo" class="logo" />
+        <form action="" class="search">
           <input type="text" class="search-input" placeholder="Search Hotels" />
           <button class="search-button">
             <svg class="search-icon">
@@ -25,6 +25,27 @@
             </svg>
           </button>
         </form>
+        <nav class="user-nav">
+          <div class="user-nav-icon-box">
+            <svg class="user-nav-icon">
+              <use xlink:href="./img/sprite.svg#icon-bookmark"></use>
+            </svg>
+            <span class="user-nav-notification">13</span>
+          </div>
+          <div class="user-nav-icon-box">
+            <svg class="user-nav-icon">
+              <use xlink:href="./img/sprite.svg#icon-chat"></use>
+            </svg>
+            <span class="user-nav-notification">13</span>
+          </div>
+          <div class="user-nav-user">
+            <img
+              src="./img/user.jpg"
+              alt="user-image"
+              class="user-nav-user-photo"
+            />
+          </div>
+        </nav>
       </header>
       <div class="content">
         <nav class="sidebar">navigation</nav>
